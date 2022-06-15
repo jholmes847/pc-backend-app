@@ -89,9 +89,9 @@ WSGI_APPLICATION = 'pc_build_blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'build_blog_api',
-        'USER': 'admin',
-        'PASSWORD': 'admin',
+        'NAME': 'pc_build_blog',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost'
     }
 }
